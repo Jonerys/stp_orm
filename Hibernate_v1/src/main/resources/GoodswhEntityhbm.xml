@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="Entity.GoodswhEntity" table="goodswh" schema="goods">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <many-to-one name="goodsMainByIdGd" class="Entity.GoodsMainEntity">
+            <column name="id_gd"/>
+        </many-to-one>
+        <many-to-one name="warehousesByIdWh" class="Entity.WarehousesEntity">
+            <column name="id_wh"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>
