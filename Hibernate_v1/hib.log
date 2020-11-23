@@ -267,3 +267,4 @@
 15:13:12,162 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [60]
 15:13:12,163 TRACE BasicExtractor:60 - extracted value ([name2_0_] : [VARCHAR]) - [Ржавая волга]
 19:17:04,742 ERROR SqlExceptionHelper:142 - Duplicate entry '1-1' for key 'XAK1goodswh'
+09:50:21,403 ERROR SqlExceptionHelper:142 - Duplicate entry '2-1' for key 'XAK1goodswh'
